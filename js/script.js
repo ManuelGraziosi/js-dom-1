@@ -6,7 +6,7 @@ let isLightOn = false;
 
 // console.log("lampImgHandler", lampImgHandler.outerHTML);
 // console.log("lampBtnHandler", lampBtnHandler);
-console.log("mainHandler", mainHandler.classList);
+// console.log("mainHandler", mainHandler.classList);
 
 const turnOnLamp = function () {
 
@@ -32,5 +32,5 @@ lampBtnHandler.addEventListener("click", function () {
 
     }
     isLightOn = !isLightOn;
-    console.log("isLightOn", isLightOn);
+    // console.log("isLightOn", isLightOn);
 })
